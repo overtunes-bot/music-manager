@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "Vann-Dev",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@types/ws": "^8.5.3",
-    "typescript": "^4.6.2"
+    "@types/node": "^17.0.45",
+    "@types/ws": "^8.5.5",
+    "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@discordjs/collection": "^0.5.0",
+    "@discordjs/collection": "^1.5.3",
     "petitio": "^1.4.0",
-    "ws": "^8.5.0"
+    "ws": "^8.14.2"
   }
 }
