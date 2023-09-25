@@ -13,7 +13,7 @@ import {
     WebSocketClosedEvent,
 } from "./Utils";
 
-import type { PetitioRequest } from "petitio/dist/lib/PetitioRequest";
+import type { PetitioRequest } from "petitio";
 
 function check(options: NodeOptions) {
     if (!options) throw new TypeError("NodeOptions must not be empty.");

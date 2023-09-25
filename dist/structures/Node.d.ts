@@ -3,7 +3,7 @@ import WebSocket from "ws";
 import { Manager } from "./Manager";
 import { Player, Track, UnresolvedTrack } from "./Player";
 import { PlayerEvent, PlayerEvents, TrackEndEvent, TrackExceptionEvent, TrackStartEvent, TrackStuckEvent, WebSocketClosedEvent } from "./Utils";
-import type { PetitioRequest } from "petitio/dist/lib/PetitioRequest";
+import type { PetitioRequest } from "petitio";
 export declare class Node {
     options: NodeOptions;
     /** The socket for the node. */
